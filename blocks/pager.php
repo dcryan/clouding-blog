@@ -1,4 +1,6 @@
 <div class="navigation">
-	<div class="prev"><?php previous_posts_link( __( '&laquo; Newer Entries', 'clouding' ) ) ?></div>
-	<div class="next"><?php next_posts_link( __( 'Older Entries &raquo;', 'clouding' ) ) ?></div>	
+	<div class="prev"><?php previous_post_link('%link', 'ANTERIOR') ?>
+	</div>
+	<div class="next"><?php next_post_link('%link', 'SIGUIENTE') ?>
+	</div>
 </div>

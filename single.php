@@ -4,17 +4,19 @@
 			<div id="content">
 				<div class="content-holder">
 					<?php while ( have_posts() ) : the_post(); ?>
+
+						<?php if( has_post_thumbnail() ): 
+							$img_id = get_post_thumbnail_id(get_the_ID());
+							$img_array = wp_get_attachment_image_src( $img_id, 'thumbnail_300x225' );
+							$alt_text = get_post_meta($img_id , '_wp_attachment_image_alt', true); ?>
+							<div class="alignleft post-thumbnail" style="background-image: url('<?php echo $img_array[0]; ?>'"></div>
+						<?php endif; ?>
+
 						<?php the_title('<h2>', '</h2>'); ?>
 						<div class="date-holder">
 							<time datetime="<?php the_time( 'Y-m-d' ); ?>"><?php _e( 'Published ', 'clouding' ); the_time( 'd M, Y' ) ?></time>
 							<?php get_template_part( 'blocks/sharethis' ); ?>
 						</div>
-						<?php if( has_post_thumbnail() ): 
-							$img_id = get_post_thumbnail_id(get_the_ID());
-							$img_array = wp_get_attachment_image_src( $img_id, 'thumbnail_300x225' );
-							$alt_text = get_post_meta($img_id , '_wp_attachment_image_alt', true); ?>
-							<img class="alignleft" src="<?php echo $img_array[0]; ?>" alt="<?php echo $alt_text; ?>" />
-						<?php endif; ?>
 						<?php the_content(); ?>
 						<?php edit_post_link( __( 'Edit', 'clouding' ) ); ?>
 						<div class="post-info">
