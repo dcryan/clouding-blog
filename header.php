@@ -23,7 +23,7 @@
 	<meta
 		charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php/* modificacion Clouding wp_title('', true, 'right');*/ ?><?php
+	<title><?php
         if (is_home()) {
             bloginfo('name');
             echo ": ";
@@ -157,19 +157,19 @@
 		<button class="mobile-menu__start-button button button--orange ca">Inicia el teu Servidor Cloud</button>
 
 		<div class="mobile-menu__language-container">
-			<a class="catalan" href="/hc/ca">
+			<a class="catalan" href="/ca">
 				<img class="image-language-dropdown"
 					src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-ca.svg"
 					alt="language icon">
 				Catalán
 			</a>
-			<a class="spanish" href="/hc/es">
+			<a class="spanish" href="/">
 				<img class="image-language-dropdown"
 					src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-es.svg"
 					alt="language icon">
 				Español
 			</a>
-			<a class="english" href="/hc/en">
+			<a class="english" href="/en">
 				<img class="image-language-dropdown"
 					src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-en.svg"
 					alt="language icon">
@@ -730,7 +730,7 @@
 								alt="triangle">
 							<div class="clouding-dropdown-menu__contents">
 
-								<a href="/hc/ca" class="clouding-dropdown-menu__item first">
+								<a href="/ca" class="clouding-dropdown-menu__item first">
 									<div class="clouding-dropdown-menu__image">
 										<img class="image-language-dropdown"
 											src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-ca.svg"
@@ -745,7 +745,7 @@
 
 								<div class="clouding-dropdown-menu__line"></div>
 
-								<a href="/hc/es" class="clouding-dropdown-menu__item">
+								<a href="/" class="clouding-dropdown-menu__item">
 									<div class="clouding-dropdown-menu__image">
 										<img class="image-language-dropdown"
 											src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-es.svg"
@@ -760,7 +760,7 @@
 
 								<div class="clouding-dropdown-menu__line"></div>
 
-								<a href="/hc/en" class="clouding-dropdown-menu__item last">
+								<a href="/en" class="clouding-dropdown-menu__item last">
 									<div class="clouding-dropdown-menu__image">
 										<img class="image-language-dropdown"
 											src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-en.svg"
@@ -785,33 +785,45 @@
 				<div class="hamburger__line bottom"></div>
 			</div>
 		</nav>
+
+		<?php
+            if (function_exists('icl_get_languages')):
+                $languages = icl_get_languages('skip_missing=0&orderby=code');
+                $prefix_field = '';
+                if (!empty($languages)) {
+                    foreach ($languages as $l) {
+                        if ($l['active']) {
+                            $prefix_field = $l['language_code'];
+                            break;
+                        }
+                    }
+                    $title_blog = get_field('option_title_blog_' . $prefix_field, 'option');
+                    $description_blog = get_field('option_description_blog_' . $prefix_field, 'option');
+                    $rss_link_blog = get_bloginfo('rss2_url');
+                    if ($title_blog or $description_blog or $rss_link_blog):
+        ?>
+		<div class="header-content content-container">
+			<div class="header-content-text">
+				<?php if ($title_blog) {
+            echo '<h1>' . $title_blog . '</h1>';
+        }
+                    // $rss_string = $rss_link_blog ? ' <a href="' . esc_url($rss_link_blog) . '" class="rss">rss</a>' : '';
+                    if ($description_blog or $rss_link_blog) {
+                        echo '<h3 class="subtitle">' . $description_blog . $rss_string . '</h3>';
+                    } ?>
+
+			</div>
+
+			<img class="image-header-image"
+				src="<?php bloginfo('template_url'); ?>/images/header-image.svg"
+				alt="header image">
+
+
+		</div>
+
+		<?php endif;
+                }
+                    endif;?>
+
 	</header>
 	<main role="main">
-		<?php if (function_exists('icl_get_languages')):
-                            $languages = icl_get_languages('skip_missing=0&orderby=code');
-                            $prefix_field = '';
-                            if (!empty($languages)) {
-                                foreach ($languages as $l) {
-                                    if ($l['active']) {
-                                        $prefix_field = $l['language_code'];
-                                        break;
-                                    }
-                                }
-                                $title_blog = get_field('option_title_blog_' . $prefix_field, 'option');
-                                $description_blog = get_field('option_description_blog_' . $prefix_field, 'option');
-                                $rss_link_blog = get_bloginfo('rss2_url');
-                                if ($title_blog or $description_blog or $rss_link_blog): ?>
-		<section class="intro">
-			<div class="center">
-				<?php if ($title_blog) {
-                                    echo '<h1>' . $title_blog . '</h1>';
-                                }
-                                $rss_string = $rss_link_blog ? ' <a href="' . esc_url($rss_link_blog) . '" class="rss">rss</a>' : '';
-                                if ($description_blog or $rss_link_blog) {
-                                    echo '<span class="subtitle">' . $description_blog . $rss_string . '</span>';
-                                } ?>
-			</div>
-		</section>
-		<?php endif;
-                            }
-                    endif;
