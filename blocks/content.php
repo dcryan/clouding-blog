@@ -2,7 +2,7 @@
 
 	<?php if (has_post_thumbnail()):
             $img_id = get_post_thumbnail_id(get_the_ID());
-            $img_array = wp_get_attachment_image_src($img_id, 'thumbnail_220x165');
+            $img_array = wp_get_attachment_image_src($img_id, 'thumbnail_400x300');
             $alt_text = get_post_meta($img_id, '_wp_attachment_image_alt', true); ?>
 	<div class="image"
 		style="background-image: url('<?php echo $img_array[0]; ?>');">

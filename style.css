@@ -312,7 +312,6 @@ h6 {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0;
-    color: #333333;
   }
 
   .px-global-nav-dropdown {
@@ -320,7 +319,6 @@ h6 {
     font-size: 16px;
     line-height: 1.1875em;
     letter-spacing: 0;
-    color: #333333;
   }
 
   h1 {
@@ -328,7 +326,6 @@ h6 {
     font-size: 34px;
     line-height: 42px;
     letter-spacing: 0;
-    color: #333333;
   }
 
   h2 {
@@ -336,7 +333,6 @@ h6 {
     font-size: 27px;
     line-height: 58px;
     letter-spacing: 0;
-    color: #333333;
   }
 
   h3 {
@@ -344,7 +340,6 @@ h6 {
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0;
-    color: #333333;
   }
 
   h4 {
@@ -352,7 +347,6 @@ h6 {
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0;
-    color: #333333;
   }
 
   h5 {
@@ -360,7 +354,6 @@ h6 {
     font-size: 16px;
     line-height: 1.0625em;
     letter-spacing: 0;
-    color: #333333;
   }
 
   h6 {
@@ -369,7 +362,6 @@ h6 {
     font-size: 16px;
     line-height: 1.0625em;
     letter-spacing: 0.28px;
-    color: #42A5F5;
   }
 
 }
@@ -645,7 +637,7 @@ pre {
   clear: both;
   padding: 5px;
   max-width: 98%;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
 }
 
 .wp-caption img {
@@ -838,12 +830,14 @@ img.aligncenter {
   position: relative;
   margin: 0 auto;
   /* width: 1172px; */
-  width: 1212px;
+  width: 1400px;
+  display: flex;
 }
 
 @media (max-width: 750px) {
   .center {
     width: auto;
+    flex-direction: column;
   }
 }
 
@@ -1014,23 +1008,22 @@ img.aligncenter {
 }
 
 .main-holder {
-  padding: 42px 20px 79px;
+  padding: 42px 21px 79px;
 }
 
 @media (max-width: 750px) {
   .main-holder {
-    padding: 32px 0;
+    padding: 32px 21px;
   }
 }
 
 #content {
-  float: left;
-  width: 100%;
+  /* width: 100%; */
 }
 
 #content h2 {
   margin: 0 0 10px;
-  line-height: 1.8em;
+  line-height: 1.5em;
 }
 
 #content .text-holder {
@@ -1043,7 +1036,12 @@ img.aligncenter {
 }
 
 #content .content-holder {
-  margin: 0 266px 0 0;
+  margin: 0 90px 0 0;
+}
+
+#content .content-holder>a,
+#content .content-holder>p>a {
+  color: #3C9CFE;
 }
 
 #content .post-thumbnail {
@@ -1051,6 +1049,8 @@ img.aligncenter {
   background-size: cover;
   background-color: rgba(183, 183, 183, 0.15);
   margin-left: -185px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 
   width: 371px;
   height: 348px;
@@ -1058,8 +1058,10 @@ img.aligncenter {
 
 @media (max-width: 750px) {
   #content .post-thumbnail {
-    margin-left: 0;
-    width: 100%;
+    margin-right: inherit;
+    margin-bottom: 20px;
+    width: 100vw;
+    margin-left: -21px;
     height: 275px;
   }
 }
@@ -1098,8 +1100,7 @@ img.aligncenter {
 }
 
 #sidebar {
-  float: right;
-  margin: 0 0 0 -100%;
+  flex: 0 0 350px;
   padding: 6px 0 0;
   width: 225px;
   line-height: 18px;
@@ -1216,6 +1217,7 @@ img.aligncenter {
 .post .image {
   background-position: center;
   background-size: cover;
+  background-color: rgba(183, 183, 183, 0.15);
   flex: 0 0 383px;
 
   width: 383px;
@@ -1356,7 +1358,7 @@ img.aligncenter {
 .terms-holder span {}
 
 #search-input {
-  width: 100%;
+  width: 225px;
   background-color: rgba(235, 235, 235, 0.32);
 }
 
@@ -1364,37 +1366,21 @@ img.aligncenter {
   margin: 0 0 41px;
 }
 
-.search-form input[type="search"] {
-  margin: 0 0 10px;
-  padding: 0;
-  padding: 9px 20px;
-  width: 100%;
-  height: 42px;
-  border: 1px solid #c5c5c5;
-  border-radius: 2px;
-  color: #121c26;
-}
-
-.search-form input[type="submit"] {
-  display: block;
-  margin: 0 auto;
-}
-
 ::-webkit-input-placeholder {
-  color: #121c26;
+  color: #324659;
 }
 
 :-moz-placeholder {
-  color: #121c26;
+  color: #324659;
 }
 
 ::-moz-placeholder {
-  color: #121c26;
+  color: #324659;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #121c26;
+  color: #324659;
 }
 
 .post-info {
@@ -2673,6 +2659,18 @@ main {
   padding-top: 32px;
   padding-left: 32px;
   padding-right: 32px;
+}
+
+@media (max-width: 750px) {
+  .main-header .header-content-text {
+    padding: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .main-header .image-header-image {
+    display: none;
+  }
 }
 
 /* end of HEADER */
