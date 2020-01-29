@@ -403,7 +403,7 @@ blockquote {
 blockquote p {
   color: #42A5F5;
   font-size: 21px;
-  line-height: 1.5em;
+  line-height: 1.6em;
   font-weight: 600;
   font-style: italic;
 
@@ -1037,7 +1037,11 @@ img.aligncenter {
 }
 
 #content .date-holder time {
+  color: #8D9EA6;
   float: left;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.16em;
   margin: 2px 0 0;
 }
 
@@ -1390,6 +1394,7 @@ img.aligncenter {
 .section.respond {
   background-color: rgba(235, 235, 235, 0.25);
   padding: 79px;
+  margin: 32px 0;
 }
 
 .section.respond #reply-title {
