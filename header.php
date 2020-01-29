@@ -157,19 +157,19 @@
 		<button class="mobile-menu__start-button button button--orange ca">Inicia el teu Servidor Cloud</button>
 
 		<div class="mobile-menu__language-container">
-			<a class="catalan" href="/ca">
+			<a class="catalan" href="/blog/ca">
 				<img class="image-language-dropdown"
 					src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-ca.svg"
 					alt="language icon">
 				Catalán
 			</a>
-			<a class="spanish" href="/">
+			<a class="spanish" href="/blog/">
 				<img class="image-language-dropdown"
 					src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-es.svg"
 					alt="language icon">
 				Español
 			</a>
-			<a class="english" href="/en">
+			<a class="english" href="/blog/en/">
 				<img class="image-language-dropdown"
 					src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-en.svg"
 					alt="language icon">
@@ -730,7 +730,7 @@
 								alt="triangle">
 							<div class="clouding-dropdown-menu__contents">
 
-								<a href="/ca" class="clouding-dropdown-menu__item first">
+								<a href="/blog/ca" class="clouding-dropdown-menu__item first">
 									<div class="clouding-dropdown-menu__image">
 										<img class="image-language-dropdown"
 											src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-ca.svg"
@@ -745,7 +745,7 @@
 
 								<div class="clouding-dropdown-menu__line"></div>
 
-								<a href="/" class="clouding-dropdown-menu__item">
+								<a href="/blog/" class="clouding-dropdown-menu__item">
 									<div class="clouding-dropdown-menu__image">
 										<img class="image-language-dropdown"
 											src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-es.svg"
@@ -760,7 +760,7 @@
 
 								<div class="clouding-dropdown-menu__line"></div>
 
-								<a href="/en" class="clouding-dropdown-menu__item last">
+								<a href="/blog/en" class="clouding-dropdown-menu__item last">
 									<div class="clouding-dropdown-menu__image">
 										<img class="image-language-dropdown"
 											src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-en.svg"
