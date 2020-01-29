@@ -20,34 +20,24 @@ if (comments_open()) : ?>
                     'fields' => apply_filters(
                         'comment_form_default_fields',
                         array(
-                                                                        'author' => '' .
-                                                                                        // '<p class="comment-form-author">' . '<input id="author" placeholder="Your Name (No Keywords)" name="author" type="text" value="' . esc_attr($commenter['comment_author']) . '" size="30"' . $aria_req . ' />'.
-                                                                                        //         '<label for="author">' . __('Your Name') . '</label> ' .
-                                                                                        //         ($req ? '<span class="required">*</span>' : '')  .
-                                                                                        // 				'</p>'.
-                                                                                        '<div id="comment-author" class="form-input form-input--dark-background">' .
-                                                                                        '  <img class="form-input__icon" src="' . get_template_directory_uri() . '/images/lock-icon.svg" alt="lock icon">' .
-                                                                                        '  <input type="text" class="form-input__element" placeholder="Nombre y Apellidos*"' .
-                                                                                        '    name="author" value="' . esc_attr($commenter['comment_author']) . '" />' .
-                                                                                        '  <div class="form-input__right-padding"></div>' .
-                                                                                        '  <div class="form-input__bottom-border"></div>' .
-                                                                                        '</div>',
+                          'author' => '' .
+                                          '<div id="comment-author" class="form-input form-input--dark-background">' .
+                                          '  <img class="form-input__icon" src="' . get_template_directory_uri() . '/images/lock-icon.svg" alt="lock icon">' .
+                                          '  <input type="text" class="form-input__element" placeholder="Nombre y Apellidos*"' .
+                                          '    name="author" value="' . esc_attr($commenter['comment_author']) . '" />' .
+                                          '  <div class="form-input__right-padding"></div>' .
+                                          '  <div class="form-input__bottom-border"></div>' .
+                                          '</div>',
 
-                                                                        'email'  => ''.
-                                                                                // '<p class="comment-form-email">' . '<input id="email" placeholder="your-real-email@example.com" name="email" type="text" value="' . esc_attr($commenter['comment_author_email']) .
-                                            // '" size="30"' . $aria_req . ' />'  .
-                                            // '<label for="email">' . __('Your Email') . '</label> ' .
-                                            // ($req ? '<span class="required">*</span>' : '') .
-                                                                                        // '</p>',
-
-                                                                                        '<div id="comment-email" class="form-input form-input--dark-background">' .
-                                                                                        '  <img class="form-input__icon" src="' . get_template_directory_uri() . '/images/mail-icon.svg" alt="mail icon">' .
-                                                                                        '  <input type="text" class="form-input__element" placeholder="Correo electrónico*"' .
-                                                                                        '    name="author" value="' . esc_attr($commenter['comment_author_email']) . '" />' .
-                                                                                        '  <div class="form-input__right-padding"></div>' .
-                                                                                        '  <div class="form-input__bottom-border"></div>' .
-                                                                                        '</div>'
-                            )
+                          'email'  => ''.
+                                          '<div id="comment-email" class="form-input form-input--dark-background">' .
+                                          '  <img class="form-input__icon" src="' . get_template_directory_uri() . '/images/mail-icon.svg" alt="mail icon">' .
+                                          '  <input type="text" class="form-input__element" placeholder="Correo electrónico*"' .
+                                          '    name="author" value="' . esc_attr($commenter['comment_author_email']) . '" />' .
+                                          '  <div class="form-input__right-padding"></div>' .
+                                          '  <div class="form-input__bottom-border"></div>' .
+                                          '</div>'
+                          )
                     ),
                     'comment_field' => ''.
                             '<div id="comment-textarea" class="form-textarea form-textarea--dark-background">'.
