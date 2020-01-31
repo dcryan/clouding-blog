@@ -223,7 +223,7 @@
 									class="clouding-dropdown-menu__item en first">
 									<div class="clouding-dropdown-menu__image">
 										<img class="image-ventajas-dropdown"
-											src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/1-ventajas.svg"
+											src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/1-Ventajas.svg"
 											alt="ventajas">
 									</div>
 									<div class="clouding-dropdown-menu__text">
@@ -235,7 +235,7 @@
 									class="clouding-dropdown-menu__item ca first">
 									<div class="clouding-dropdown-menu__image">
 										<img class="image-ventajas-dropdown"
-											src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/1-ventajas.svg"
+											src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/1-Ventajas.svg"
 											alt="ventajas">
 									</div>
 									<div class="clouding-dropdown-menu__text">
