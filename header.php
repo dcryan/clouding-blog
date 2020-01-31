@@ -174,14 +174,14 @@
 
 		</div>
 
-		<a href="https://portal.clouding.io/register?lang=es">
-			<button class="mobile-menu__start-button button button--orange es">Inicia tu Servidor Cloud</button>
+		<a class="es" href="https://portal.clouding.io/register?lang=es">
+			<button class="mobile-menu__start-button button button--orange">Inicia tu Servidor Cloud</button>
 		</a>
-		<a href="https://portal.clouding.io/register?lang=en">
-			<button class="mobile-menu__start-button button button--orange en">Start your Cloud Server</button>
+		<a class="en" href="https://portal.clouding.io/register?lang=en">
+			<button class="mobile-menu__start-button button button--orange">Start your Cloud Server</button>
 		</a>
-		<a href="https://portal.clouding.io/register?lang=ca">
-			<button class="mobile-menu__start-button button button--orange ca">Inicia el teu Servidor Cloud</button>
+		<a class="ca" href="https://portal.clouding.io/register?lang=ca">
+			<button class="mobile-menu__start-button button button--orange">Inicia el teu Servidor Cloud</button>
 		</a>
 
 		<div class="mobile-menu__language-container">
@@ -210,7 +210,19 @@
 	<header class="main-header">
 		<nav class="nav-row content-container">
 			<div class="nav-row__logo-container">
-				<a href="https://clouding.io/" class="nav-row__logo">
+				<a href="https://clouding.io/" class="nav-row__logo es">
+					<img class="image-clouding-logo-header"
+						src="<?php bloginfo('template_url'); ?>/images/Clouding-logo-white.svg"
+						alt="header logo">
+				</a>
+
+				<a href="https://clouding.io/en/" class="nav-row__logo en">
+					<img class="image-clouding-logo-header"
+						src="<?php bloginfo('template_url'); ?>/images/Clouding-logo-white.svg"
+						alt="header logo">
+				</a>
+
+				<a href="https://clouding.io/ca/" class="nav-row__logo ca">
 					<img class="image-clouding-logo-header"
 						src="<?php bloginfo('template_url'); ?>/images/Clouding-logo-white.svg"
 						alt="header logo">
