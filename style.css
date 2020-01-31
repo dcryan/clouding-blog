@@ -790,7 +790,8 @@ img.aligncenter {
   position: relative;
   margin: 0 auto;
   /* width: 1172px; */
-  width: 1400px;
+  /* 1400 - 42 = 1358 */
+  width: 1358px;
   display: flex;
 }
 
@@ -1710,7 +1711,7 @@ img.aligncenter {
   }
 
   #content .content-holder {
-    margin: 0 230px 0 0;
+    margin: 0 140px 0 0;
     width: auto;
   }
 
@@ -2106,7 +2107,7 @@ main {
   position: absolute;
   overflow: hidden;
   width: 100%;
-  min-width: 1172px;
+  min-width: 1400px;
   height: 627px;
   left: 0;
 }
@@ -2508,6 +2509,7 @@ main {
 
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  min-width: 1400px;
 }
 
 .nav-row {
@@ -2635,6 +2637,7 @@ main {
 @media (max-width: 750px) {
   .main-header .header-content-text {
     padding: 0;
+    width: auto;
   }
 }
 
