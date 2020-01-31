@@ -174,10 +174,10 @@
 
 		</div>
 
-		<a href="https://portal.clouding.io/register?lang=ca">
+		<a href="https://portal.clouding.io/register?lang=es">
 			<button class="mobile-menu__start-button button button--orange es">Inicia tu Servidor Cloud</button>
 		</a>
-		<a href="https://portal.clouding.io/register?lang=ca">
+		<a href="https://portal.clouding.io/register?lang=en">
 			<button class="mobile-menu__start-button button button--orange en">Start your Cloud Server</button>
 		</a>
 		<a href="https://portal.clouding.io/register?lang=ca">
