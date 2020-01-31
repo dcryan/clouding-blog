@@ -12,3 +12,27 @@ jQuery(function animateDropdowns() {
 			jQuery(this).removeClass('active');
 		});
 });
+
+jQuery(function () {
+
+	jQuery('.hamburger').click(function () {
+		jQuery(this).toggleClass('active');
+		jQuery('.mobile-menu').toggleClass('active');
+	});
+
+	jQuery('.mobile-menu__header-container').click(function () {
+		jQuery(this).parent().toggleClass('active');
+	});
+
+	jQuery('.px-global-nav-dropdown').click(function () {
+		jQuery('.hamburger').removeClass('active');
+		jQuery('.mobile-menu').removeClass('active');
+
+		// Remove after 300ms because we don't want the collapsing animation
+		// to be visible when closing the full menu.
+		setTimeout(function () {
+			jQuery('.mobile-menu__item').removeClass('active');
+		}, 300);
+	});
+
+});

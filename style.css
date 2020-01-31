@@ -228,7 +228,6 @@ h1 {
   font-size: 16px;
   line-height: 1.1875em;
   letter-spacing: 0.02px;
-  color: #F4F9FF;
 }
 
 h1 {
@@ -3017,6 +3016,8 @@ main {
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   margin-top: 35px;
+  color: #42A5F5;
+  font-weight: 600;
 }
 
 .mobile-menu .mobile-menu__start-button {
@@ -3033,6 +3034,7 @@ main {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 33px;
+  color: #42A5F5;
 }
 
 .mobile-menu .mobile-menu__language-container a {
