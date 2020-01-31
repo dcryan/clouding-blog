@@ -2512,6 +2512,12 @@ main {
   min-width: 1400px;
 }
 
+@media (max-width: 750px) {
+  .main-header {
+    min-width: auto;
+  }
+}
+
 .nav-row {
   padding-top: 26px;
   padding-bottom: 26px;

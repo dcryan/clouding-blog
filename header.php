@@ -62,29 +62,40 @@
 						src="<?php bloginfo('template_url'); ?>/images/chevron-down.svg"
 						alt="arrow"></div>
 
-				<div class="mobile-menu__header px-global-nav es">Caracteristicas</div>
+				<div class="mobile-menu__header px-global-nav es">Características</div>
 				<div class="mobile-menu__header px-global-nav en">Features</div>
 				<div class="mobile-menu__header px-global-nav ca">Característiques</div>
 
 			</div>
 			<div class="mobile-menu__list">
-				<a class="px-global-nav-dropdown es first" href="caracteristicas.html#ventajas">Ventajas</a>
-				<a class="px-global-nav-dropdown en first" href="caracteristicas.html#ventajas">Advantages</a>
-				<a class="px-global-nav-dropdown ca first" href="caracteristicas.html#ventajas">Avantatges</a>
+				<a class="px-global-nav-dropdown es first"
+					href="https://clouding.io/caracteristicas#ventajas">Ventajas</a>
+				<a class="px-global-nav-dropdown en first"
+					href="https://clouding.io/en/caracteristicas#ventajas">Advantages</a>
+				<a class="px-global-nav-dropdown ca first"
+					href="https://clouding.io/ca/caracteristicas#ventajas">Avantatges</a>
 
-				<a class="px-global-nav-dropdown es" href="caracteristicas.html#funcionalidades">Funcionalidades</a>
-				<a class="px-global-nav-dropdown en" href="caracteristicas.html#funcionalidades">Functionalities</a>
-				<a class="px-global-nav-dropdown ca" href="caracteristicas.html#funcionalidades">Funcionalitats</a>
+				<a class="px-global-nav-dropdown es"
+					href="https://clouding.io/caracteristicas#funcionalidades">Funcionalidades</a>
+				<a class="px-global-nav-dropdown en"
+					href="https://clouding.io/en/caracteristicas#funcionalidades">Functionalities</a>
+				<a class="px-global-nav-dropdown ca"
+					href="https://clouding.io/ca/caracteristicas#funcionalidades">Funcionalitats</a>
 
-				<a class="px-global-nav-dropdown es" href="caracteristicas.html#infraestructura">Infraestructura</a>
-				<a class="px-global-nav-dropdown en" href="caracteristicas.html#infraestructura">Infrastructure</a>
-				<a class="px-global-nav-dropdown ca" href="caracteristicas.html#infraestructura">Infraestructura</a>
+				<a class="px-global-nav-dropdown es"
+					href="https://clouding.io/caracteristicas#infraestructura">Infraestructura</a>
+				<a class="px-global-nav-dropdown en"
+					href="https://clouding.io/en/caracteristicas#infraestructura">Infrastructure</a>
+				<a class="px-global-nav-dropdown ca"
+					href="https://clouding.io/ca/caracteristicas#infraestructura">Infraestructura</a>
 
-				<a class="px-global-nav-dropdown" href="caracteristicas.html#api">API</a>
+				<a class="px-global-nav-dropdown es" href="https://clouding.io/caracteristicas#api">API</a>
+				<a class="px-global-nav-dropdown en" href="https://clouding.io/en/caracteristicas#api">API</a>
+				<a class="px-global-nav-dropdown ca" href="https://clouding.io/ca/caracteristicas#api">API</a>
 
-				<a class="px-global-nav-dropdown es" href="caracteristicas.html#imagenes">Imágenes</a>
-				<a class="px-global-nav-dropdown en" href="caracteristicas.html#imagenes">Images</a>
-				<a class="px-global-nav-dropdown ca" href="caracteristicas.html#imagenes">Imatges</a>
+				<a class="px-global-nav-dropdown es" href="https://clouding.io/caracteristicas#imagenes">Imágenes</a>
+				<a class="px-global-nav-dropdown en" href="https://clouding.io/en/caracteristicas#imagenes">Images</a>
+				<a class="px-global-nav-dropdown ca" href="https://clouding.io/ca/caracteristicas#imagenes">Imatges</a>
 			</div>
 		</div>
 
@@ -100,15 +111,19 @@
 				<div class="mobile-menu__header px-global-nav ca">Nosaltres</div>
 			</div>
 			<div class="mobile-menu__list">
-				<a class="px-global-nav-dropdown es first" href="nosotros.html#">Más sobre Clouding</a>
-				<a class="px-global-nav-dropdown en first" href="nosotros.html#">More about Clouding</a>
-				<a class="px-global-nav-dropdown ca first" href="nosotros.html#">Més sobre Clouding</a>
+				<a class="px-global-nav-dropdown es first" href="https://clouding.io/nosotros#">Más sobre Clouding</a>
+				<a class="px-global-nav-dropdown en first" href="https://clouding.io/en/nosotros#">More about
+					Clouding</a>
+				<a class="px-global-nav-dropdown ca first" href="https://clouding.io/ca/nosotros#">Més sobre
+					Clouding</a>
 
-				<a class="px-global-nav-dropdown es" href="nosotros.html#contacto">Contacto</a>
-				<a class="px-global-nav-dropdown en" href="nosotros.html#contacto">Contact</a>
-				<a class="px-global-nav-dropdown ca" href="nosotros.html#contacto">Contacte</a>
+				<a class="px-global-nav-dropdown es" href="https://clouding.io/nosotros#contacto">Contacto</a>
+				<a class="px-global-nav-dropdown en" href="https://clouding.io/en/nosotros#contacto">Contact</a>
+				<a class="px-global-nav-dropdown ca" href="https://clouding.io/ca/nosotros#contacto">Contacte</a>
 
-				<a class="px-global-nav-dropdown" href="nosotros.html#blog">Blog</a>
+				<a class="px-global-nav-dropdown es" href="https://clouding.io/nosotros#blog">Blog</a>
+				<a class="px-global-nav-dropdown en" href="https://clouding.io/en/nosotros#blog">Blog</a>
+				<a class="px-global-nav-dropdown ca" href="https://clouding.io/ca/nosotros#blog">Blog</a>
 			</div>
 		</div>
 
@@ -124,15 +139,20 @@
 				<div class="mobile-menu__header px-global-nav ca">Suport</div>
 			</div>
 			<div class="mobile-menu__list">
-				<a class="px-global-nav-dropdown es first" href="soporte.html#">Soporte Clouding.io</a>
-				<a class="px-global-nav-dropdown en first" href="soporte.html#">Clouding.io Support</a>
-				<a class="px-global-nav-dropdown ca first" href="soporte.html#">Suport Clouding.io</a>
+				<a class="px-global-nav-dropdown es first" href="https://clouding.io/soporte#">Soporte Clouding.io</a>
+				<a class="px-global-nav-dropdown en first" href="https://clouding.io/en/soporte#">Clouding.io
+					Support</a>
+				<a class="px-global-nav-dropdown ca first" href="https://clouding.io/ca/soporte#">Suport Clouding.io</a>
 
-				<a class="px-global-nav-dropdown" href="soporte.html#cloud-pros">Cloud&nbsp;Pros</a>
+				<a class="px-global-nav-dropdown es" href="https://clouding.io/soporte#cloud-pros">Cloud&nbsp;Pros</a>
+				<a class="px-global-nav-dropdown en"
+					href="https://clouding.io/en/soporte#cloud-pros">Cloud&nbsp;Pros</a>
+				<a class="px-global-nav-dropdown ca"
+					href="https://clouding.io/ca/soporte#cloud-pros">Cloud&nbsp;Pros</a>
 
-				<a class="px-global-nav-dropdown es" href="soporte.html#">Base de conocimiento</a>
-				<a class="px-global-nav-dropdown en" href="soporte.html#">Knowledge Base</a>
-				<a class="px-global-nav-dropdown ca" href="soporte.html#">Base de coneixement</a>
+				<a class="px-global-nav-dropdown es" href="https://clouding.io/soporte#">Base de conocimiento</a>
+				<a class="px-global-nav-dropdown en" href="https://clouding.io/en/soporte#">Knowledge Base</a>
+				<a class="px-global-nav-dropdown ca" href="https://clouding.io/ca/soporte#">Base de coneixement</a>
 
 			</div>
 		</div>
@@ -140,21 +160,29 @@
 		<div class="mobile-menu__line"></div>
 
 		<div class="mobile-menu__links">
-			<a class="px-global-nav-dropdown es" href="soporte.html#contacto">Contacto</a>
-			<a class="px-global-nav-dropdown en" href="soporte.html#contacto">Contact</a>
-			<a class="px-global-nav-dropdown ca" href="soporte.html#contacto">Contacte</a>
+			<a class="px-global-nav-dropdown es" href="https://clouding.io/soporte#contacto">Contacto</a>
+			<a class="px-global-nav-dropdown en" href="https://clouding.io/en/soporte#contacto">Contact</a>
+			<a class="px-global-nav-dropdown ca" href="https://clouding.io/ca/soporte#contacto">Contacte</a>
 
-			<a class="px-global-nav-dropdown" href="/kb/es/categories/360002140740">FAQ</a>
+			<a class="px-global-nav-dropdown es" href="https://clouding.io/kb/es/categories/360002140740">FAQ</a>
+			<a class="px-global-nav-dropdown en" href="https://clouding.io/kb/en-us/categories/360002140740">FAQ</a>
+			<a class="px-global-nav-dropdown ca" href="https://clouding.io/kb/ca/categories/360002140740">FAQ</a>
 
-			<a class="px-global-nav-dropdown es" href="#">Iniciar Sesión</a>
-			<a class="px-global-nav-dropdown en" href="#">Login</a>
-			<a class="px-global-nav-dropdown ca" href="#">Iniciar Sessió</a>
+			<a class="px-global-nav-dropdown es" href="https://portal.clouding.io/?lang=es">Iniciar Sesión</a>
+			<a class="px-global-nav-dropdown en" href="https://portal.clouding.io/?lang=en">Login</a>
+			<a class="px-global-nav-dropdown ca" href="https://portal.clouding.io/?lang=ca">Iniciar Sessió</a>
 
 		</div>
 
-		<button class="mobile-menu__start-button button button--orange es">Inicia tu Servidor Cloud</button>
-		<button class="mobile-menu__start-button button button--orange en">Start your Cloud Server</button>
-		<button class="mobile-menu__start-button button button--orange ca">Inicia el teu Servidor Cloud</button>
+		<a href="https://portal.clouding.io/register?lang=ca">
+			<button class="mobile-menu__start-button button button--orange es">Inicia tu Servidor Cloud</button>
+		</a>
+		<a href="https://portal.clouding.io/register?lang=ca">
+			<button class="mobile-menu__start-button button button--orange en">Start your Cloud Server</button>
+		</a>
+		<a href="https://portal.clouding.io/register?lang=ca">
+			<button class="mobile-menu__start-button button button--orange ca">Inicia el teu Servidor Cloud</button>
+		</a>
 
 		<div class="mobile-menu__language-container">
 			<a class="catalan" href="/blog/ca">
@@ -191,7 +219,7 @@
 			<div class="nav-row__links-container show-on-desktop">
 				<div class="nav-row__links-left">
 					<span class="nav-row__nav-item js-nav-row__nav-item-caracteristicas px-global-nav">
-						<a href="https://clouding.io/caracteristicas#" class="px-global-nav es">Caracteristicas</a>
+						<a href="https://clouding.io/caracteristicas#" class="px-global-nav es">Características</a>
 						<a href="https://clouding.io/en/caracteristicas#" class="px-global-nav en">Features</a>
 						<a href="https://clouding.io/ca/caracteristicas#" class="px-global-nav ca">Característiques</a>
 

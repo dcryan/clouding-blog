@@ -42,7 +42,7 @@
 						<div class="footer__links-container">
 							<ul class="footer__links-list">
 								<li class="footer__links-list-header">
-									<a class="es" href="https://clouding.io/caracteristicas#">Caracteristicas</a>
+									<a class="es" href="https://clouding.io/caracteristicas#">Características</a>
 									<a class="en" href="https://clouding.io/en/caracteristicas#">Features</a>
 									<a class="ca" href="https://clouding.io/ca/caracteristicas#">Característiques</a>
 								</li>
