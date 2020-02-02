@@ -839,17 +839,15 @@
                     }
                     $title_blog = get_field('option_title_blog_' . $prefix_field, 'option');
                     $description_blog = get_field('option_description_blog_' . $prefix_field, 'option');
-                    $rss_link_blog = get_bloginfo('rss2_url');
-                    if ($title_blog or $description_blog or $rss_link_blog):
+                    if ($title_blog or $description_blog):
         ?>
 		<div class="header-content content-container">
 			<div class="header-content-text">
 				<?php if ($title_blog) {
             echo '<h1>' . $title_blog . '</h1>';
         }
-                    // $rss_string = $rss_link_blog ? ' <a href="' . esc_url($rss_link_blog) . '" class="rss">rss</a>' : '';
-                    if ($description_blog or $rss_link_blog) {
-                        echo '<h3 class="subtitle">' . $description_blog . $rss_string . '</h3>';
+                    if ($description_blog) {
+                        echo '<h3 class="subtitle">' . $description_blog . '</h3>';
                     } ?>
 
 			</div>
