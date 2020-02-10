@@ -43,78 +43,76 @@
 							<ul class="footer__links-list">
 								<li class="footer__links-list-header">
 									<a class="es" href="https://clouding.io/caracteristicas#">Características</a>
-									<a class="en" href="https://clouding.io/en/caracteristicas#">Features</a>
-									<a class="ca" href="https://clouding.io/ca/caracteristicas#">Característiques</a>
+									<a class="en" href="https://clouding.io/en/features#">Features</a>
+									<a class="ca" href="https://clouding.io/ca/caracteristiques#">Característiques</a>
 								</li>
 								<li>
 									<a class="es" href="https://clouding.io/caracteristicas#ventajas">Ventajas</a>
-									<a class="en" href="https://clouding.io/en/caracteristicas#ventajas">Advantages</a>
-									<a class="ca" href="https://clouding.io/ca/caracteristicas#ventajas">Avantatges</a>
+									<a class="en" href="https://clouding.io/en/features#advantages">Advantages</a>
+									<a class="ca" href="https://clouding.io/ca/caracteristiques#avantatges">Avantatges</a>
 								</li>
 								<li>
 									<a class="es" href="https://clouding.io/caracteristicas#funcionalidades">Funcionalidades</a>
-									<a class="en"
-										href="https://clouding.io/en/caracteristicas#funcionalidades">Functionalities</a>
+									<a class="en" href="https://clouding.io/en/features#functionalities">Functionalities</a>
 									<a class="ca"
-										href="https://clouding.io/ca/caracteristicas#funcionalidades">Funcionalitats</a>
+										href="https://clouding.io/ca/caracteristiques#funcionalitats">Funcionalitats</a>
 								</li>
 								<li>
 									<a class="es" href="https://clouding.io/caracteristicas#infraestructura">Infraestructura</a>
-									<a class="en"
-										href="https://clouding.io/en/caracteristicas#infraestructura">Infrastructure</a>
+									<a class="en" href="https://clouding.io/en/features#infraestructure">Infrastructure</a>
 									<a class="ca"
-										href="https://clouding.io/ca/caracteristicas#infraestructura">Infraestructura</a>
+										href="https://clouding.io/ca/caracteristiques#infraestructura">Infraestructura</a>
 								</li>
 								<li>
 									<a class="es" href="https://clouding.io/caracteristicas#api">API</a>
-									<a class="en" href="https://clouding.io/en/caracteristicas#api">API</a>
-									<a class="ca" href="https://clouding.io/ca/caracteristicas#api">API</a>
+									<a class="en" href="https://clouding.io/en/features#api">API</a>
+									<a class="ca" href="https://clouding.io/ca/caracteristiques#api">API</a>
 								</li>
 								<li>
 									<a class="es" href="https://clouding.io/caracteristicas#imagenes">Imágenes</a>
-									<a class="en" href="https://clouding.io/en/caracteristicas#imagenes">Images</a>
-									<a class="ca" href="https://clouding.io/ca/caracteristicas#imagenes">Imatges</a>
+									<a class="en" href="https://clouding.io/en/features#images">Images</a>
+									<a class="ca" href="https://clouding.io/ca/caracteristiques#imatges">Imatges</a>
 								</li>
 							</ul>
 
 							<ul class="footer__links-list">
 								<li class="footer__links-list-header">
-									<a class="es" href="https://clouding.io/nosotros.html#">Nosotros</a>
-									<a class="en" href="https://clouding.io/es/nosotros.html#">With&nbsp;us</a>
-									<a class="ca" href="https://clouding.io/ca/nosotros.html#">Nosaltres</a>
+									<a class="es" href="https://clouding.io/nosotros#">Nosotros</a>
+									<a class="en" href="https://clouding.io/en/about-us#">About&nbsp;us</a>
+									<a class="ca" href="https://clouding.io/ca/nosaltres#">Nosaltres</a>
 								</li>
 								<li>
-									<a class="es" href="https://clouding.io/nosotros.html#">Más sobre Clouding</a>
-									<a class="en" href="https://clouding.io/es/nosotros.html#">More about Clouding</a>
-									<a class="ca" href="https://clouding.io/ca/nosotros.html#">Més sobre Clouding</a>
+									<a class="es" href="https://clouding.io/nosotros#">Más sobre Clouding</a>
+									<a class="en" href="https://clouding.io/en/about-us#">More about Clouding</a>
+									<a class="ca" href="https://clouding.io/ca/nosaltres#">Més sobre Clouding</a>
 								</li>
 								<li>
-									<a class="es" href="https://clouding.io/nosotros.html#contacto">Contacto</a>
-									<a class="en" href="https://clouding.io/es/nosotros.html#contacto">Contact</a>
-									<a class="ca" href="https://clouding.io/ca/nosotros.html#contacto">Contacte</a>
+									<a class="es" href="https://clouding.io/nosotros#contacto">Contacto</a>
+									<a class="en" href="https://clouding.io/en/about-us#contact">Contact</a>
+									<a class="ca" href="https://clouding.io/ca/nosaltres#contacte">Contacte</a>
 								</li>
 								<li>
-									<a class="es" href="https://clouding.io/nosotros.html#">Blog</a>
-									<a class="en" href="https://clouding.io/es/nosotros.html#">Blog</a>
-									<a class="ca" href="https://clouding.io/ca/nosotros.html#">Blog</a>
+									<a class="es" href="https://clouding.io/blog/#">Blog</a>
+									<a class="en" href="https://clouding.io/blog/en/#">Blog</a>
+									<a class="ca" href="https://clouding.io/blog/ca/#">Blog</a>
 								</li>
 							</ul>
 
 							<ul class="footer__links-list">
 								<li class="footer__links-list-header">
-									<a class="es" href="https://clouding.io/soporte.html#">Soporte</a>
-									<a class="en" href="https://clouding.io/en/soporte.html#">Support</a>
-									<a class="ca" href="https://clouding.io/ca/soporte.html#">Suport</a>
+									<a class="es" href="https://clouding.io/soporte#">Soporte</a>
+									<a class="en" href="https://clouding.io/en/support#">Support</a>
+									<a class="ca" href="https://clouding.io/ca/suport#">Suport</a>
 								</li>
 								<li>
-									<a class="es" href="https://clouding.io/soporte.html#">Soporte Clouding.io</a>
-									<a class="en" href="https://clouding.io/en/soporte.html#">Clouding.io Support</a>
-									<a class="ca" href="https://clouding.io/ca/soporte.html#">Suport Clouding.io</a>
+									<a class="es" href="https://clouding.io/soporte#">Soporte Clouding.io</a>
+									<a class="en" href="https://clouding.io/en/support#">Clouding.io Support</a>
+									<a class="ca" href="https://clouding.io/ca/suport#">Suport Clouding.io</a>
 								</li>
 								<li>
-									<a class="es" href="https://clouding.io/soporte.html#cloud-pros">Cloud&nbsp;Pros</a>
-									<a class="en" href="https://clouding.io/en/soporte.html#cloud-pros">Cloud&nbsp;Pros</a>
-									<a class="ca" href="https://clouding.io/ca/soporte.html#cloud-pros">Cloud&nbsp;Pros</a>
+									<a class="es" href="https://clouding.io/soporte#cloud-pros">Cloud&nbsp;Pros</a>
+									<a class="en" href="https://clouding.io/en/support#cloud-pros">Cloud&nbsp;Pros</a>
+									<a class="ca" href="https://clouding.io/ca/suport#cloud-pros">Cloud&nbsp;Pros</a>
 								</li>
 								<li>
 									<a class="es" href="https://clouding.io/kb/es/">Base&nbsp;de&nbsp;Conocimiento</a>
@@ -142,7 +140,12 @@
 							</div>
 							<div class="ca">Els preus recollits en aquest lloc web no inclouen IVA. Polítiques i Condicions Legal
 							</div>
-							<div>Cloudi NextGen S.L. | B66356528 | Ronda General Mitre 25, bajos | 08017 Barcelona (España)</div>
+							<div class="es">Cloudi NextGen S.L. | B66356528 | Ronda General Mitre 25, bajos | 08017 Barcelona
+								(España)</div>
+							<div class="en">Cloudi NextGen S.L. | B66356528 | 25, local, General Mitre Round | 08017 Barcelona
+								(Spain)</div>
+							<div class="ca">Cloudi NextGen S.L. | B66356528 | Ronda General Mitre 25, baixos | 08017 Barcelona
+								(Espanya)</div>
 						</div>
 					</div>
 				</div>
