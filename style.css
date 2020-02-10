@@ -2226,7 +2226,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   color: #8D9EA6;
-  margin-left: 200px;
+  margin-left: 240px;
 }
 
 @media (max-width: 750px) {
@@ -2240,7 +2240,8 @@ main {
   opacity: 1;
   padding: 0;
   margin: 0;
-  margin-right: 70px;
+  margin-right: 40px;
+  flex: 1 0 165px;
 }
 
 @media (max-width: 750px) {
@@ -2248,6 +2249,7 @@ main {
     font-weight: 200;
     line-height: 30px;
     margin-top: 32px;
+    flex: auto;
   }
 }
 
@@ -2343,6 +2345,8 @@ main {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  margin-top: 38px;
+  margin-bottom: 38px;
 }
 
 .footer__copyright {
@@ -2372,7 +2376,7 @@ main {
   font-size: 16px;
   line-height: 1.875em;
   letter-spacing: 0;
-  margin-left: 170px;
+  margin-left: 150px;
 }
 
 /*** End of FOOTER ***/

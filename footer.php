@@ -59,7 +59,7 @@
 								</li>
 								<li>
 									<a class="es" href="https://clouding.io/caracteristicas#infraestructura">Infraestructura</a>
-									<a class="en" href="https://clouding.io/en/features#infraestructure">Infrastructure</a>
+									<a class="en" href="https://clouding.io/en/features#infrastructure">Infrastructure</a>
 									<a class="ca"
 										href="https://clouding.io/ca/caracteristiques#infraestructura">Infraestructura</a>
 								</li>
