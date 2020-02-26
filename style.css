@@ -2516,6 +2516,10 @@ main {
   min-width: 1400px;
 }
 
+.main-header .image-clouding-logo-header.blue {
+  display: none;
+}
+
 @media (max-width: 750px) {
   .main-header {
     min-width: auto;
@@ -2524,7 +2528,6 @@ main {
 
 .nav-row {
   padding-top: 26px;
-  padding-bottom: 26px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2533,7 +2536,6 @@ main {
 @media (max-width: 750px) {
   .nav-row {
     padding-top: 18px;
-    padding-bottom: 18px;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -2939,6 +2941,7 @@ main {
 
 .mobile-menu {
   position: absolute;
+  left: 0;
   width: calc(100% - 22px);
   height: auto;
   background: white;
@@ -3068,6 +3071,56 @@ main {
 }
 
 /* end of Mobile Menu */
+
+/* Floating Header */
+.floating-header {
+  background-color: white;
+  padding-bottom: 18px;
+  position: fixed;
+  width: calc(100% - 42px);
+  z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 0s 0.3s, opacity 0.3s;
+  transition: visibility 0s 0.3s, opacity 0.3s;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16), 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16), 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+}
+
+/* THIS IS NOT ON THE WWW SIDE */
+.floating-header .image-clouding-logo-header.white {
+  display: none;
+}
+
+.floating-header .hamburger .hamburger__line {
+  z-index: 3;
+  background-color: #324659;
+}
+
+.floating-header .mobile-menu {
+  position: fixed;
+}
+
+.floating-header.disabled {
+  display: none !important;
+}
+
+.floating-header.active {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: visibility 0s, opacity 0.3s;
+  transition: visibility 0s, opacity 0.3s;
+}
+
+.floating-header.active .mobile-menu.active {
+  visibility: visible;
+}
+
+.floating-header .mobile-menu {
+  visibility: hidden;
+}
+
+/* end of Floating Header */
 
 /* custom Button */
 .button {

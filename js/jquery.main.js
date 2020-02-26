@@ -71,3 +71,30 @@ jQuery(function mobileMenuFunctionality() {
 	});
 
 });
+
+jQuery(function addFloatingHeader() {
+	var heightBuffer = 0;
+	var $lastScrollTop = 0;
+	jQuery(window).scroll(function () {
+		var $height = jQuery(this).scrollTop();
+		if ($height === 0) {
+			jQuery('.floating-header').removeClass('active');
+		}
+		// If the header is disabled, we want to remove the active class.
+		else if (jQuery('.floating-header').hasClass('disabled')) {
+			jQuery('.floating-header').removeClass('active');
+		}
+		else if ($height < $lastScrollTop) {
+			heightBuffer++;
+			if (heightBuffer > 20) {
+				jQuery('.floating-header').addClass('active');
+			}
+		}
+		else {
+			heightBuffer = 0;
+			jQuery('.floating-header').removeClass('active');
+		}
+
+		$lastScrollTop = $height;
+	});
+});
