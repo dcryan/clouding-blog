@@ -2516,6 +2516,7 @@ main {
   min-width: 1400px;
 }
 
+/* THIS IS NOT ON THE WWW SIDE */
 .main-header .image-clouding-logo-header.blue {
   display: none;
 }
