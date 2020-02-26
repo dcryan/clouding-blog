@@ -57,7 +57,7 @@
 
 	<div class="mobile-menu">
 		<div class="mobile-menu__item">
-			<div class="mobile-menu__header-container">
+			<div class="mobile-menu__header-container js-mobile-menu__header-caracteristicas">
 				<div class="mobile-menu__header-arrow"><img
 						src="<?php bloginfo('template_url'); ?>/images/chevron-down.svg"
 						alt="arrow"></div>
@@ -102,7 +102,7 @@
 		<div class="mobile-menu__line"></div>
 
 		<div class="mobile-menu__item">
-			<div class="mobile-menu__header-container">
+			<div class="mobile-menu__header-container js-mobile-menu__header-nosotros">
 				<div class="mobile-menu__header-arrow"><img
 						src="<?php bloginfo('template_url'); ?>/images/chevron-down.svg"
 						alt="arrow"></div>
@@ -130,7 +130,7 @@
 		<div class="mobile-menu__line"></div>
 
 		<div class="mobile-menu__item">
-			<div class="mobile-menu__header-container">
+			<div class="mobile-menu__header-container js-mobile-menu__header-soporte">
 				<div class="mobile-menu__header-arrow"><img
 						src="<?php bloginfo('template_url'); ?>/images/chevron-down.svg"
 						alt="arrow"></div>
