@@ -1007,6 +1007,15 @@ img.aligncenter {
   color: #3C9CFE;
 }
 
+#content .content-holder img {
+  max-width: 100%;
+  height: auto;
+}
+
+#content .content-holder iframe {
+  max-width: 100%;
+}
+
 #content .post-thumbnail {
   background-position: center;
   background-size: contain;
