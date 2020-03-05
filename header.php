@@ -62,7 +62,7 @@
 		<?php get_template_part('nav-row'); ?>
 	</div>
 
-	<header class="main-header content-container">
+	<header class="main-header">
 		<?php get_template_part('nav-row'); ?>
 
 		<?php

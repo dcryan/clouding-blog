@@ -224,7 +224,7 @@ h1 {
 }
 
 .px-global-nav {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   line-height: 1.1875em;
   letter-spacing: 0.02px;
@@ -2541,6 +2541,9 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: unset;
+  padding-left: 21px;
+  padding-right: 21px;
 }
 
 @media (max-width: 750px) {

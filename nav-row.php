@@ -1,4 +1,4 @@
-<nav class="nav-row">
+<nav class="nav-row content-container">
   <div class="nav-row__logo-container">
     <a href="https://clouding.io/" class="nav-row__logo es">
       <img class="image-clouding-logo-header white"
@@ -487,28 +487,28 @@
     <div class="nav-row__links-right">
       <span class="nav-row__nav-item">
         <a class="px-global-nav es" href="https://portal.clouding.io/?lang=es">
-          Accede
+          Inicia sesión
         </a>
         <a class="px-global-nav en" href="https://portal.clouding.io/?lang=en">
-          Access
+          Log in
         </a>
         <a class="px-global-nav ca" href="https://portal.clouding.io/?lang=ca">
-          Accedeix
+          Inicia sessió
         </a>
       </span>
       <a class="es" href="https://portal.clouding.io/register?lang=es">
         <button class="nav-row__links-button button button--light-blue button--small">
-          Regístrate
+          Crea tu cuenta gratis
         </button>
       </a>
       <a class="en" href="https://portal.clouding.io/register?lang=en">
         <button class="nav-row__links-button button button--light-blue button--small">
-          Sign up
+          Create a free account
         </button>
       </a>
       <a class="ca" href="https://portal.clouding.io/register?lang=ca">
         <button class="nav-row__links-button button button--light-blue button--small">
-          Registra't
+          Crea el teu compte gratis
         </button>
       </a>
       <span class="nav-row__nav-item js-nav-row__nav-item-language px-global-nav">
