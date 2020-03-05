@@ -112,13 +112,13 @@
 	  </div>
 
 	  <a class="es" href="https://portal.clouding.io/register?lang=es">
-	    <button class="mobile-menu__start-button button button--orange">Inicia tu Servidor Cloud</button>
+	    <button class="mobile-menu__start-button button button--orange">Crea tu cuenta gratis</button>
 	  </a>
 	  <a class="en" href="https://portal.clouding.io/register?lang=en">
-	    <button class="mobile-menu__start-button button button--orange">Start your Cloud Server</button>
+	    <button class="mobile-menu__start-button button button--orange">Create a free account</button>
 	  </a>
 	  <a class="ca" href="https://portal.clouding.io/register?lang=ca">
-	    <button class="mobile-menu__start-button button button--orange">Inicia el teu Servidor Cloud</button>
+	    <button class="mobile-menu__start-button button button--orange">Crea el teu compte gratis</button>
 	  </a>
 
 	  <div class="mobile-menu__language-container">
