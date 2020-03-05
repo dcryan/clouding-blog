@@ -2726,11 +2726,15 @@ main {
 }
 
 .clouding-dropdown-menu__triangle.clouding-dropdown-menu__triangle-language {
-  left: 100px;
+  left: 137px;
 }
 
 .clouding-dropdown-menu * {
   box-sizing: content-box;
+}
+
+.js-nav-row__nav-item-language .clouding-dropdown-menu {
+  left: 0;
 }
 
 .clouding-dropdown-menu {
