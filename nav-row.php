@@ -498,17 +498,17 @@
       </span>
       <a class="es" href="https://portal.clouding.io/register?lang=es">
         <button class="nav-row__links-button button button--light-blue button--small">
-          Crea tu cuenta gratis
+          Crea tu cuenta
         </button>
       </a>
       <a class="en" href="https://portal.clouding.io/register?lang=en">
         <button class="nav-row__links-button button button--light-blue button--small">
-          Create a free account
+          Create your account
         </button>
       </a>
       <a class="ca" href="https://portal.clouding.io/register?lang=ca">
         <button class="nav-row__links-button button button--light-blue button--small">
-          Crea el teu compte gratis
+          Crea un compte
         </button>
       </a>
       <span class="nav-row__nav-item js-nav-row__nav-item-language px-global-nav">
