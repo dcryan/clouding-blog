@@ -57,7 +57,7 @@
 
 	<?php get_template_part('mobile-menu'); ?>
 
-	<div class="floating-header content-container show-on-mobile">
+	<div class="floating-header show-on-mobile">
 		<?php get_template_part('mobile-menu'); ?>
 		<?php get_template_part('nav-row'); ?>
 	</div>
