@@ -45,7 +45,20 @@
 	<?php wp_head(); ?>
 
 
-	<link rel="icon" type="image/png" href="/favicon.png">
+	<link rel="preload" as="font" crossorigin="crossorigin" type="font/woff"
+		href="<?php echo get_template_directory_uri(); ?>/fonts/MaisonNeue-Book.ttf">
+	<link rel="preload" as="font" crossorigin="crossorigin" type="font/woff"
+		href="<?php echo get_template_directory_uri(); ?>/fonts/MaisonNeue-Demi.ttf">
+	<link rel="preload" as="font" crossorigin="crossorigin" type="font/woff"
+		href="<?php echo get_template_directory_uri(); ?>/fonts/MaisonNeue-DemiItalic.ttf">
+	<link rel="preload" as="font" crossorigin="crossorigin" type="font/woff"
+		href="<?php echo get_template_directory_uri(); ?>/fonts/MaisonNeue-Light.ttf">
+	<link rel="preload" as="font" crossorigin="crossorigin" type="font/woff"
+		href="<?php echo get_template_directory_uri(); ?>/fonts/MaisonNeue-LightItalic.ttf">
+	<link rel="preload" as="font" crossorigin="crossorigin" type="font/woff"
+		href="<?php echo get_template_directory_uri(); ?>/fonts/MaisonNeue-Medium.ttf">
+	<link rel="preload" as="font" crossorigin="crossorigin" type="font/woff"
+		href="<?php echo get_template_directory_uri(); ?>/fonts/MaisonNeue-MediumItalic.ttf">
 
 </head>
 
