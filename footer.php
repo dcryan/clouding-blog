@@ -115,9 +115,9 @@
 									<a class="ca" href="https://clouding.io/ca/suport#cloud-pros">Cloud&nbsp;Pros</a>
 								</li>
 								<li>
-									<a class="es" href="https://clouding.io/kb/es/">Base&nbsp;de&nbsp;Conocimiento</a>
-									<a class="en" href="https://clouding.io/kb/es/">Knowledge&nbsp;Base</a>
-									<a class="ca" href="https://clouding.io/kb/es/">Base&nbsp;de&nbsp;Coneixement</a>
+									<a class="es" href="https://clouding.io/hc/es/">Base&nbsp;de&nbsp;Conocimiento</a>
+									<a class="en" href="https://clouding.io/hc/es/">Knowledge&nbsp;Base</a>
+									<a class="ca" href="https://clouding.io/hc/es/">Base&nbsp;de&nbsp;Coneixement</a>
 								</li>
 							</ul>
 

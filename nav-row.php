@@ -445,7 +445,7 @@
 
             <div class="clouding-dropdown-menu__line"></div>
 
-            <a href="https://clouding.io/kb/es/" class="clouding-dropdown-menu__item es last">
+            <a href="https://clouding.io/hc/es/" class="clouding-dropdown-menu__item es last">
               <div class="clouding-dropdown-menu__image">
                 <img class="image-base-conocimiento-dropdown"
                   src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/10-Base-Conicimiento.svg"
@@ -456,7 +456,7 @@
                 <div class="clouding-dropdown-menu__detail">¡Consulta los artículos!</div>
               </div>
             </a>
-            <a href="https://clouding.io/kb/en-us/" class="clouding-dropdown-menu__item en last">
+            <a href="https://clouding.io/hc/en-us/" class="clouding-dropdown-menu__item en last">
               <div class="clouding-dropdown-menu__image">
                 <img class="image-base-conocimiento-dropdown"
                   src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/10-Base-Conicimiento.svg"
@@ -467,7 +467,7 @@
                 <div class="clouding-dropdown-menu__detail">Check out the articles!</div>
               </div>
             </a>
-            <a href="https://clouding.io/kb/ca/" class="clouding-dropdown-menu__item ca last">
+            <a href="https://clouding.io/hc/ca/" class="clouding-dropdown-menu__item ca last">
               <div class="clouding-dropdown-menu__image">
                 <img class="image-base-conocimiento-dropdown"
                   src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/10-Base-Conicimiento.svg"
