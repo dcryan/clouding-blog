@@ -2604,8 +2604,16 @@ main {
   flex-grow: 1;
 }
 
+.nav-row__links-left {
+  display: flex;
+}
+
 .nav-row__links-left a:first-child {
   margin-left: 0;
+}
+
+.nav-row__links-right {
+  display: flex;
 }
 
 .nav-row__links-right a:last-child {
@@ -2641,6 +2649,7 @@ main {
 .nav-row__nav-item a {
   text-align: center;
   padding: 8px 0;
+  vertical-align: middle;
 }
 
 .nav-row__nav-item .nav-row__nav-item-arrow-container {
@@ -2659,6 +2668,7 @@ main {
 
 .nav-row__nav-item .nav-row__nav-item-language {
   text-transform: capitalize;
+  vertical-align: middle;
 }
 
 .nav-row__language-button {

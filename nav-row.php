@@ -29,7 +29,7 @@
   </div>
   <div class="nav-row__links-container show-on-desktop">
     <div class="nav-row__links-left">
-      <span class="nav-row__nav-item js-nav-row__nav-item-caracteristicas px-global-nav">
+      <div class="nav-row__nav-item js-nav-row__nav-item-caracteristicas px-global-nav">
         <a href="https://clouding.io/caracteristicas#" class="px-global-nav es">Características</a>
         <a href="https://clouding.io/en/features#" class="px-global-nav en">Features</a>
         <a href="https://clouding.io/ca/caracteristiques#" class="px-global-nav ca">Característiques</a>
@@ -229,8 +229,8 @@
           </div>
 
         </div>
-      </span>
-      <span class="nav-row__nav-item js-nav-row__nav-item-nosotros px-global-nav">
+      </div>
+      <div class="nav-row__nav-item js-nav-row__nav-item-nosotros px-global-nav">
         <a href="https://clouding.io/nosotros#" class="px-global-nav es">Nosotros</a>
         <a href="https://clouding.io/en/about-us#" class="px-global-nav en">About&nbsp;us</a>
         <a href="https://clouding.io/ca/nosaltres#" class="px-global-nav ca">Nosaltres</a>
@@ -354,8 +354,8 @@
 
           </div>
         </div>
-      </span>
-      <span class="nav-row__nav-item js-nav-row__nav-item-soporte px-global-nav">
+      </div>
+      <div class="nav-row__nav-item js-nav-row__nav-item-soporte px-global-nav">
 
         <a href="https://clouding.io/soporte#" class="px-global-nav es">Soporte</a>
         <a href="https://clouding.io/en/support#" class="px-global-nav en">Support</a>
@@ -482,7 +482,7 @@
           </div>
 
         </div>
-      </span>
+      </div>
     </div>
     <div class="nav-row__links-right">
       <span class="nav-row__nav-item">
@@ -511,7 +511,7 @@
           Crea un compte
         </button>
       </a>
-      <span class="nav-row__nav-item js-nav-row__nav-item-language px-global-nav">
+      <div class="nav-row__nav-item js-nav-row__nav-item-language px-global-nav">
         <img class="nav-row__language-button es"
           src="<?php bloginfo('template_url'); ?>/images/dropdown-menu/language-es.svg"
           alt="language icon">
@@ -589,7 +589,7 @@
 
           </div>
         </div>
-      </span>
+      </div>
     </div>
   </div>
 
