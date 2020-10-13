@@ -61,7 +61,7 @@
 </head>
 
 <body>
-	<script async type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/stats.js"></script>
+	<script async type="text/javascript" src="https://clouding.io/js/stats.js"></script>
 
 	<!-- Google Tag Manager -->
 	<script>
