@@ -552,7 +552,9 @@
               </div>
               <div class="clouding-dropdown-menu__text">
                 <div class="clouding-dropdown-menu__title">
-                  Catalán
+                  <span class="es">Catalán</span>
+                  <span class="en">Catalan</span>
+                  <span class="ca">Català</span>
                 </div>
               </div>
             </a>
@@ -567,7 +569,9 @@
               </div>
               <div class="clouding-dropdown-menu__text">
                 <div class="clouding-dropdown-menu__title">
-                  Español
+                  <span class="es">Español</span>
+                  <span class="en">Spanish</span>
+                  <span class="ca">Espanyol</span>
                 </div>
               </div>
             </a>
@@ -582,7 +586,9 @@
               </div>
               <div class="clouding-dropdown-menu__text">
                 <div class="clouding-dropdown-menu__title">
-                  Inglés
+                  <span class="es">Inglés</span>
+                  <span class="en">English</span>
+                  <span class="ca">Anglès</span>
                 </div>
               </div>
             </a>
